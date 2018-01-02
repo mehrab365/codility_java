@@ -13,7 +13,9 @@ public class FrogRiverOne {
 	        }
 	        if(steps == 0) return i;
 	    }
-		}catch(Exception e) {return -1;}
+		}catch(Exception e) {
+			return -1;
+			}
 	    return -1;
 //		Map<Integer, Integer> iMap= new HashMap<>();
 //		for (int i = 0; i < A.length; i++) {
@@ -54,7 +56,7 @@ public class FrogRiverOne {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(solution(5, new int[] {1, 3, 1, 4, 2, 3, 6, 4}));
+		System.out.println(solution(5, new int[] {1, 3, 1, 4, 2, 3, 5, 4}));
 
 	}
 
